@@ -1,0 +1,30 @@
+Gawai Studio. 
+
+Perusahaan tersebut akan melakukan migrasi dari server on premises yang mereka miliki menjadi sistem cloud karena kebutuhan pengguna yang sangat
+meningkat. Sehingga anda sebagai seorang SysOps Administrator yang berpengalaman dibidang cloud dengan platfrom AWS harus merencanakan dan menyusun infrastructure
+yang tepat untuk server production yang akan mengudara pada sistem cloud mereka.
+
+Project ini goalnya adalah dapat membuat sebuah infrastruktur berbasis cloud, dimana server yang digunakan akan memiliki kemampuan membagi trafik yang berguna
+menghandle aktifitas user yang tinggi, memiliki storage media yang sangat besar untuk menyimpan konten, dan database yang terpisah dengan server utama sehingga bisa
+melakukan mirroring database.
+
+Requirement
+Small Project ini memuat semua materi yang sudah dipelajari selama beberapa pekan
+terakhir, berikut beberapa requirement yang harus dikerjakan.
+1. Buat sebuah topologi untuk infrastruktur cloud yang akan kalian buat.
+2. Buat sebuah VPC baru yang memiliki 3 AZ.
+3. Buat sebuah bucket S3 baru yang bisa read and write.
+4. Buat sebuah instance dengan sistem operasi Ubuntu 18.04 menggunakan VPC yang
+sudah kalian buat sebelumnya.
+5. Mounting S3 storage pada instance yang sudah di install tadi.
+6. Buat database baru dengan menggunakan Amazon RDS type t2.micro
+7. Deploy Aplikasi Pesbuk dari lokal ke server production yang sudah dibuat dan sudah
+di mounting S3, simpan konten aplikasi pesbuk di storage S3 dan gunakan database
+RDS sebagai databasenya.
+8. Aktifkan Autoscalling dan Load Balance pada Instance tersebut.
+9. Aktifkan Domain dari Provider ke Route53, lalu arahkan server production yang
+sebelumnya dibuat sehingga bisa diakses melalui domain.
+
+Optional :
+1. Siapkan sebuah server dari Elastic Beanstalk untuk aplikasi landing page web.
+2. Arahkan landing page tersebut pada subdomain nama kalian di route53.
