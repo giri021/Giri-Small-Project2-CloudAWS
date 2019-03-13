@@ -4,6 +4,8 @@ Giri Small Project 2 : Membangun Infrastruktur Berbasis Cloud AWS Gawai Studio
 
 Gawai Studio. 
 
+https://github.com/giri021/Giri-Small-Project2-CloudAWS/blob/master/Giri_SmallProject2_CloudAWS.jpg?raw=true
+
 Perusahaan tersebut akan melakukan migrasi dari server on premises yang mereka miliki menjadi sistem cloud karena kebutuhan pengguna yang sangat
 meningkat. Sehingga anda sebagai seorang SysOps Administrator yang berpengalaman dibidang cloud dengan platfrom AWS harus merencanakan dan menyusun infrastructure
 yang tepat untuk server production yang akan mengudara pada sistem cloud mereka.
